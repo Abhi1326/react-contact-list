@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TEAM component should render as expected 1`] = `
+<div>
+  <section
+    className="team section_padding"
+  >
+    <h3
+      className="heading_h3"
+    >
+      Team
+    </h3>
+    <div
+      className="team_container"
+    >
+      <div
+        className="single_member"
+      >
+        <figure>
+          <img
+            alt=""
+            src="member.jpg"
+          />
+        </figure>
+        <h4
+          className="membername"
+        >
+          Larry Page
+        </h4>
+        <h6
+          className="designation"
+        >
+          Co-Founder of Google
+        </h6>
+      </div>
+      <div
+        className="single_member"
+      >
+        <figure>
+          <img
+            alt=""
+            src="member.jpg"
+          />
+        </figure>
+        <h4
+          className="membername"
+        >
+          Larry Page
+        </h4>
+        <h6
+          className="designation"
+        >
+          Co-Founder of Google
+        </h6>
+      </div>
+      <div
+        className="single_member"
+      >
+        <figure>
+          <img
+            alt=""
+            src="member.jpg"
+          />
+        </figure>
+        <h4
+          className="membername"
+        >
+          Larry Page
+        </h4>
+        <h6
+          className="designation"
+        >
+          Co-Founder of Google
+        </h6>
+      </div>
+    </div>
+  </section>
+</div>
+`;

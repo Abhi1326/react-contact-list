@@ -1,0 +1,30 @@
+.team_container{
+    width: 100%;
+}
+.team_container .single_member{
+    width: 26%;
+    margin: 15px 3.33%;
+    float: left;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+.team_container .single_member figure{
+    margin: 0;
+}
+.team_container .single_member img{
+    max-width: 100%;
+    width: 100%;
+}
+.team_container .single_member .membername{
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    margin: 5px 0;
+    color: #000;
+}
+.team_container .single_member .designation{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin: 5px 0;
+    color: #999;
+}

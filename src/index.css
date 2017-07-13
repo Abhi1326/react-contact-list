@@ -1,0 +1,81 @@
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', sans-serif;
+}
+.heading_h3{
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.section_padding{
+  padding: 15px 100px;
+}
+.panel-primary{
+  border-color: rgba(221, 221, 221, 0);
+  border-radius: 0;
+}
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #21415d;
+  border: none;
+  border-radius: 0;
+}
+.panel-title{
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+.heading_h4{
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  float: left;
+  padding: 4px;
+}
+.list-group-item a.addbtn{
+  color: #21415d;
+  border: 1px solid #21415d;
+  padding: 5px 20px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.list-group-item a.addbtn:hover{
+  color: #fff;
+  background-color: #21415d;
+  text-decoration: none;
+}
+.list-group-item input[type="text"]{
+  border: 1px solid rgba(33, 65, 93, 0.45);
+  border-radius: 0;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.list-group-item ul{
+  list-style: none;
+  padding: 0;
+}
+.list-group-item ul li{
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #444;
+}
+.list-group-item ul li:hover{
+  background-color: rgb(226, 227, 228);
+  color:#000;
+}
+p.infotitle span{
+  display: inline-block;
+  min-width: 70px;
+  color: #000;
+  font-size: 14px;
+}
+.btnaction {
+  margin-right: 10px;
+  border-radius: 0;
+}

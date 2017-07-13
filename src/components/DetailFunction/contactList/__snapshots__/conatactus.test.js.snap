@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component should render as expected 1`] = `
+<div>
+  <section
+    className="contactus section_padding"
+    style={
+      Object {
+        "display": "table",
+        "paddingTop": "47px",
+      }
+    }
+  >
+    <h3
+      className="heading_h3"
+    >
+      Contact Us
+    </h3>
+    <p
+      className="text_paragraphs"
+    >
+      Get in Touch!
+      <br />
+      We are here to answer any questions you may have about our experiences. Reach out to us and we’ll respond as soon as we can.
+      <br />
+      We are available anytime for a Talk. So, Just stop by for a cup of coffee.
+    </p>
+    <div
+      className="contactform"
+    >
+      <form
+        action=""
+        method=""
+        name=""
+      >
+        <input
+          name="name"
+          placeholder="Enter Your Name"
+          type="text"
+        />
+        <input
+          name="useremail"
+          placeholder="Enter Email Address"
+          type="text"
+        />
+        <textarea
+          placeholder="Enter Message"
+        />
+        <input
+          type="submit"
+          value="SEND"
+        />
+      </form>
+    </div>
+  </section>
+</div>
+`;
